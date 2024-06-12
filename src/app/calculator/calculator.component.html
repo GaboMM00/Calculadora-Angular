@@ -1,0 +1,26 @@
+<div class="calculator">
+  <div class="display">{{ display }}</div>
+  <button (click)="onButtonPress('1')">1</button>
+  <button (click)="onButtonPress('2')">2</button>
+  <button (click)="onButtonPress('3')">3</button>
+  <button (click)="onButtonPress('4')">4</button>
+  <button (click)="onButtonPress('5')">5</button>
+  <button (click)="onButtonPress('6')">6</button>
+  <button (click)="onButtonPress('7')">7</button>
+  <button (click)="onButtonPress('8')">8</button>
+  <button (click)="onButtonPress('9')">9</button>
+  <button (click)="onButtonPress('0')">0</button>
+  <!-- Agrega más botones aquí -->
+  <button (click)="onButtonPress('+')">+</button>
+  <button (click)="onButtonPress('-')">-</button>
+  <button (click)="onButtonPress('*')">x</button>
+  <button (click)="onButtonPress('/')">/</button>
+  <button (click)="onButtonPress('**')">^</button>
+  <button (click)="onButtonPress('.')">.</button>
+  
+  <!-- Agrega botones para otras operaciones -->
+  <button (click)="calculate()">=</button>
+  <button (click)="spr()">🡰</button>
+  <button (click)="erase()">Erase</button>
+</div>
+

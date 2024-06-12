@@ -1,0 +1,31 @@
+<div class="center">
+  <div class="calculator">
+    <div class="display"><div>{{ display }}</div></div>
+    <div id="buttoms">
+      <app-calbuttom [num]="'AC'" [size]="25" [background]="'#74CE52'"[color]="'aliceblue'"(click)="erase()"></app-calbuttom>
+      <app-calbuttom [num]="'^'" [size]="20"[background]="'#74CE52'"[color]="'aliceblue'"(click)="onButtonPress('**')"></app-calbuttom>
+      <app-calbuttom [num]="'%'" [size]="20"[background]="'#74CE52'"[color]="'aliceblue'"(click)="onButtonPress('%')"></app-calbuttom>
+      <app-calbuttom [num]="'/'" [size]="20"[background]="'#74CE52'"[color]="'aliceblue'"(click)="onButtonPress('/')"></app-calbuttom>
+      <app-calbuttom [num]="'7'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('7')"></app-calbuttom>
+      <app-calbuttom [num]="'8'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('8')"></app-calbuttom>
+      <app-calbuttom [num]="'9'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('9')"></app-calbuttom>
+      <app-calbuttom [num]="'*'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('*')"></app-calbuttom>
+      <app-calbuttom [num]="'4'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('4')"></app-calbuttom>
+      <app-calbuttom [num]="'5'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('5')"></app-calbuttom>
+      <app-calbuttom [num]="'6'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('6')"></app-calbuttom>
+      <app-calbuttom [num]="'-'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('-')"></app-calbuttom>
+      <app-calbuttom [num]="'1'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('1')"></app-calbuttom>
+      <app-calbuttom [num]="'2'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('2')"></app-calbuttom>
+      <app-calbuttom [num]="'3'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('3')"></app-calbuttom>
+      
+      <!-- Agrega más botones aquí -->
+      <app-calbuttom [num]="'+'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('+')"></app-calbuttom>
+      
+      <!-- Agrega botones para otras operaciones -->
+      <app-calbuttom id="left-lower-corner" [num]="'<'" [size]="20" [background]="'#2E303F'"[color]="'aliceblue'"(click)="spr()"></app-calbuttom>
+      <app-calbuttom [num]="'0'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('0')"></app-calbuttom>
+      <app-calbuttom [num]="'.'" [size]="20"[background]="'#2E303F'"[color]="'aliceblue'"(click)="onButtonPress('.')"></app-calbuttom>
+      <app-calbuttom id="right-lower-corner"[background]="'#2E303F'"[num]="'='"[color]="'aliceblue'" [size]="20" (click)="calculate()"></app-calbuttom>
+    </div>
+  </div>
+</div>
