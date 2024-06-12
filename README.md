@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Calculadora
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# Calculadora-Angular
+En este proyecto se creo una calculadora usando el framework llamado Angular.
+>>>>>>> 15440c3f5bd62655fb62409298e4ce20e7e8e1e9
